@@ -39,8 +39,8 @@ const App: React.FC = () => {
       <header className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
             <img 
-                src="https://picsum.photos/seed/climbing/1920/1080" 
-                alt="Climber" 
+                src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1920&q=80" 
+                alt="Mountain Adventure" 
                 className="w-full h-full object-cover filter brightness-50 contrast-125"
             />
         </div>

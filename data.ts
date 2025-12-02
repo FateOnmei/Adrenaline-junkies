@@ -8,7 +8,7 @@ export const adventures: Adventure[] = [
     activities: ['Superjeep', 'Lávové jeskyně', 'Arktické potápění', 'Sopky'],
     priceLevel: '€€€',
     difficulty: 'Vysoká',
-    imageUrl: 'https://picsum.photos/seed/volcano/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=800&q=80' // Magma/Volcano
   },
   {
     id: 'greenland-survival',
@@ -17,7 +17,7 @@ export const adventures: Adventure[] = [
     activities: ['Survival kurz', 'Stavba iglú', 'Navigace', 'Escape mission'],
     priceLevel: '€€€',
     difficulty: 'Extrémní',
-    imageUrl: 'https://picsum.photos/seed/iceberg/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1520333789090-1afc82db536a?auto=format&fit=crop&w=800&q=80' // Ice/Arctic Fixed
   },
   {
     id: 'morocco-desert',
@@ -26,7 +26,7 @@ export const adventures: Adventure[] = [
     activities: ['Buggy', 'Sandboarding', 'Berber camp', 'Off-road'],
     priceLevel: '€€',
     difficulty: 'Střední',
-    imageUrl: 'https://picsum.photos/seed/desert/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80' // Desert Dunes
   },
   {
     id: 'alpine-trio',
@@ -35,7 +35,7 @@ export const adventures: Adventure[] = [
     activities: ['Canyoning', 'Via Ferrata', 'Paragliding'],
     priceLevel: '€€',
     difficulty: 'Vysoká',
-    imageUrl: 'https://picsum.photos/seed/alps/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80' // High Alps
   },
   {
     id: 'amazonas-jungle',
@@ -44,7 +44,7 @@ export const adventures: Adventure[] = [
     activities: ['Jungle trek', 'Rio Negro', 'Survival', 'Divoká zvěř'],
     priceLevel: '€€€',
     difficulty: 'Vysoká',
-    imageUrl: 'https://picsum.photos/seed/jungle/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1546633634-1c44754d922a?auto=format&fit=crop&w=800&q=80' // Jungle River/Green
   },
   {
     id: 'norway-fjord',
@@ -53,7 +53,7 @@ export const adventures: Adventure[] = [
     activities: ['Sjezd vodopádu', 'Sea-kayak', 'Cliff-jumping', 'Zipline'],
     priceLevel: '€€',
     difficulty: 'Vysoká',
-    imageUrl: 'https://picsum.photos/seed/fjord/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80' // Norway Fjord
   },
   {
     id: 'japan-circuit',
@@ -62,7 +62,7 @@ export const adventures: Adventure[] = [
     activities: ['Snowboard', 'Parkour', 'MTB', 'Samurajský trénink'],
     priceLevel: '€€€',
     difficulty: 'Vysoká',
-    imageUrl: 'https://picsum.photos/seed/japan/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80' // Mt Fuji/Japan
   },
   {
     id: 'bali-water',
@@ -71,7 +71,7 @@ export const adventures: Adventure[] = [
     activities: ['Kitesurf', 'Freediving', 'Rafting', 'Cliff dive'],
     priceLevel: '€€',
     difficulty: 'Střední',
-    imageUrl: 'https://picsum.photos/seed/bali/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80' // Bali Temple/Water
   },
   {
     id: 'peru-heights',
@@ -80,7 +80,7 @@ export const adventures: Adventure[] = [
     activities: ['Trek', 'Zipline', 'Horský výstup', 'Shark snorkel'],
     priceLevel: '€€',
     difficulty: 'Vysoká',
-    imageUrl: 'https://picsum.photos/seed/peru/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=800&q=80' // Peru/Llama
   },
   {
     id: 'slovenia-adrenopack',
@@ -89,6 +89,6 @@ export const adventures: Adventure[] = [
     activities: ['Canyoning', 'Bungee jumping', 'Rafting', 'Ultralight let'],
     priceLevel: '€',
     difficulty: 'Střední',
-    imageUrl: 'https://picsum.photos/seed/river/800/600'
+    imageUrl: 'https://images.unsplash.com/photo-1530866495561-507c9faab2ed?auto=format&fit=crop&w=800&q=80' // Rafting/River Fixed
   }
 ];
