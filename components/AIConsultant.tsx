@@ -45,7 +45,14 @@ const AIConsultant: React.FC<AIConsultantProps> = ({ isOpen, onClose }) => {
         `;
 
         try {
-            const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+            const apiKey = process.env.API_KEY;
+            if (!apiKey) {
+                console.error("API Key is missing. Please set API_KEY environment variable.");
+                setMessages([{ role: 'model', text: "Omlouvám se, ale nemám nastavený API klíč. Kontaktujte prosím správce webu." }]);
+                return;
+            }
+
+            const ai = new GoogleGenAI({ apiKey: apiKey });
             const newChat = ai.chats.create({
                 model: 'gemini-2.5-flash',
                 config: {
@@ -71,6 +78,7 @@ const AIConsultant: React.FC<AIConsultantProps> = ({ isOpen, onClose }) => {
             startChat();
         } catch (error) {
             console.error("Error initializing AI", error);
+            setMessages([{ role: 'model', text: "Došlo k chybě při inicializaci AI asistenta." }]);
         }
     }
   }, [isOpen, chatSession]);
